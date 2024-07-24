@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: url(/asset/images/chat.jpg);
+    background-size: cover;
+    background-color: rgb(205, 201, 201);
+}
+.registeration{
+    height: 650px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 3px solid black;
+    /* background-color: white; */
+    font-size: 25px;
+    border-radius: 90px;
+    position: relative;
+    top: 50px;
+    /* left: 330px; */
+    padding-left: 350px;
+    color: black;
+    backdrop-filter: blur(25px);
+}
+.details{
+    height: 650px;
+    width: 70%;
+    /* border: 2px solid red; */
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+
+}
+.input{
+    background-color: transparent;
+    color: black;
+    width: 90%;
+    /* border-radius: 10px; */
+    height: 40px;
+    font-size: 20px;
+    text-decoration: none;
+    border-bottom: 3px solid black;
+    outline: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding-left: 30px;
+}
+header{
+    font-size: 50px;
+    font-weight: bold;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 30px;
+    color: black;
+}
+.submit{
+    background-color: gold;
+    width: 20%;
+    height: 40px;
+    border-radius: 20px;
+    position: relative;
+    left: 750px;
+    margin-bottom: 20px;
+    font-weight: bold;
+
+}

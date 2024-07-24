@@ -1,0 +1,513 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.container{
+    height: 10600px;
+    width: 100vw;
+    /* background-color: red; */
+}
+nav{
+    height: 60px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    display: flex;
+}
+.country{
+    height: 40px;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 20px;
+}
+.searchBox{
+    height: 40px;
+    width: 40%;
+    border: 5px solid black;
+    border-radius: 20px;
+    background-color: grey;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+    border-radius: 40px;
+    position: relative;
+    right: 40px;
+}
+input{
+    font-size: 15px;
+    text-decoration: none;
+    height: 30px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    border: none;
+    padding-left: 10px;
+
+}
+.recent{
+    height: 30px;
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+}
+.demo{
+    background-color: blue;
+    width: 30vw;
+    color: black;
+    border-radius: 6px;
+    font-size: 18px;
+}
+.support{
+    background-color: grey;
+    width: 30vw;
+    color: black;
+    border-radius: 6px;
+    font-size: 18px;
+}
+.recent-posts{
+    background-color: grey;
+    width: 30vw;
+    color: black;
+    border-radius: 6px;
+    font-size: 18px;
+}
+.begin{
+    height: 45px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(163, 153, 153);
+    color: white;
+    align-items: center;
+}
+.mobile{
+    display: flex;
+    align-items: center;
+    height: 600px;
+    width: 100vw;
+}
+.p{
+    font-size: 200px;
+    font-style: italic;
+    color: rgb(30, 29, 29);
+    position: relative;
+    left: 100px;
+}
+.mobile1{
+    height: 240px;
+    width: 50vw;
+    background-color: grey;
+    border-radius: 80px;
+    position: relative;
+    bottom: 80px;
+    font-style: italic;
+    font-size: 17px;
+}
+.mobile2{
+    height: 550px;
+    width: 50vw;
+    background-image: url(/asset/images/phone.jpg);
+    background-repeat: repeat;
+    background-size: cover; 
+    border-radius: 40px;
+}
+.over-head{
+    height: 28px;
+    width: 100vw;
+    display: flex;
+    background-color: black;
+    color: white;
+}
+.over{
+    height: 20px;
+    width: 25vw;
+    font-size: 20px;
+    justify-content: center;
+    display: flex;
+
+}
+.a{
+    height: 130px;
+    width: 100vw;
+    display: flex;
+    background-color: blue;
+    color: white;
+
+}
+.a1{
+    height: 160px;
+    width: 25vw;
+    font-size: 60px;
+    justify-content: center;
+    display: flex;
+}
+.a3{
+    height: 160px;
+    width: 25vw;
+    font-size: 60px;
+    justify-content: center;
+    display: flex;
+}
+.a4{
+    height: 160px;
+    width: 25vw;
+    font-size: 60px;
+    justify-content: center;
+    display: flex;
+}
+.aa{
+    height: 35px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+.aa1{
+    height: 35px;
+    width: 25vw;
+    justify-content: center;
+    display: flex;
+}
+.aa2{
+    height: 35px;
+    width: 25vw;
+    justify-content: center;
+    display: flex;
+}
+.aa3{
+    height: 35px;
+    width: 30vw;
+    display: flex;
+    position: relative;
+    left: 25px;
+}
+.aa4{
+    height: 35px;
+    width: 20vw;
+}
+.ssss{
+    height: 130px;
+    width: 100vw;
+    background-color: rgb(137, 133, 133);
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.r{
+    height: 120px;
+    width: 100vw;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-style: italic;
+    background-color: white;
+}
+.button{
+    color: black;
+    height: 40px;
+    width: 10vw;
+    background-color: blue;
+    font-size: 20px;
+    border-radius: 25px;
+}
+.share{
+    height: 35px;
+    width: 100vw;
+    align-items: center;
+    display: flex;
+    justify-content: end;
+}
+.oddpages{
+    height: 600px;
+    width: 100vw;
+    /* border: 3px solid red; */
+    display: flex;
+    background-color: rgb(194, 190, 190);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.oddpages:hover{
+    background-color: rgb(53, 49, 49);
+    color: white;
+}
+.oddpage3{
+    font-size: 50px;
+}
+.oddpage2{
+    height: 400px;
+    width: 50vw;
+    /* border: 3px solid black; */
+    padding: 15px;
+}
+.evenpages{
+    height: 600px;
+    width: 100vw;
+    /* border: 3px solid red; */
+    display: flex;
+    background-color: rgb(194, 190, 190);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.evenpages:hover{
+    background-color: rgb(53, 49, 49);
+    color: white;
+}
+.evenpage3{
+    font-size: 50px;
+}
+.evenpage2{
+    height: 400px;
+    width: 50vw;
+    /* border: 3px solid black; */
+    padding: 15px;
+}
+.information{
+    height: 150px;
+    width: 40vw;
+    border: 10px solid rgb(119, 112, 112);
+    border-radius: 20px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+    position: relative;
+    left: 40px;
+}
+.info{
+    height: 150px;
+    width: 40vw;
+    border: 10px solid rgb(119, 112, 112);
+    border-radius: 20px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+    position: relative;
+    left: 40px;
+}
+.see{
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+    text-decoration: none;
+    font-style: italic;
+    border-radius: 15px;
+    background-color: blue;
+}
+.logout{
+    height: 70px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    background-color: rgb(194, 190, 190);
+}
+.logout-button{
+    border-radius: 30px;
+    height: 50px;
+    width: 10vw;
+    font-weight: bold;
+    font-size: 25px;
+    background-color: blue;
+    color: black;
+}
+.logo{
+    height: 100px;
+    width: 100vw;
+    background-color: black;
+    color: white;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logos{
+    height: 50px;
+    width: 100vw;
+    background-color: black;
+    color: white;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+}
+.footer{
+    height: 150px;
+    width: 100vw;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    display: flex;
+    align-items: end;
+    padding-right: 30px;
+
+}
+.stop{
+    height: 550px;
+    width: 50vw;
+    /* border: 5px solid green; */
+    background-image: url(/asset/images/stop\ stop\ stop.jpg);
+    background-size: cover;
+    border-radius: 35px;
+    box-shadow: 10px 10px 10px 10px #888888;
+}
+.damagedbridge{
+    height: 550px;
+    width: 50vw;
+    /* border: 5px solid green; */
+    background-image: url(/asset/images/damagedbridge.jpg);
+    background-size: cover;
+    border-radius: 35px;
+    box-shadow: 10px 10px 10px 10px #888888;
+
+}
+.gastanker{
+    height: 550px;
+    width: 50vw;
+    /* border: 5px solid green; */
+    background-image: url(/asset/images/gas\ tanker\ fire.jpg);
+    background-size: cover;
+    border-radius: 35px;
+    background-size: cover;
+    box-shadow: 10px 10px 10px 10px #888888;
+ 
+}
+.badroad{
+    height: 550px;
+    width: 50vw;
+    /* border: 5px solid green; */
+    background-image: url(/asset/images/bad\ road.jpg);
+    background-size: cover;
+    border-radius: 35px;
+    background-size: cover;
+    box-shadow: 10px 10px 10px 10px #888888;
+}
+.tiger{
+    height: 550px;
+    width: 50vw;
+    /* border: 5px solid green; */
+    background-image: url(/asset/images/tiger.jpg);
+    background-size: cover;
+    border-radius: 35px;
+    background-size: cover;
+    box-shadow: 10px 10px 10px 10px #888888;
+}
+.army{
+    height: 550px;
+    width: 50vw;
+    /* border: 5px solid green; */
+    background-image: url(/asset/images/army.jpg);
+    background-size: cover;
+    border-radius: 35px;
+    background-size: cover;
+    box-shadow: 10px 10px 10px 10px #888888;
+}
+.train{
+    height: 550px;
+    width: 50vw;
+    /* border: 5px solid green; */
+    background-image: url(/asset/images/train\ accident.jpg);
+    background-size: cover;
+    border-radius: 35px;
+    background-size: cover;
+    box-shadow: 10px 10px 10px 10px #888888;
+}
+.erosion{
+    height: 550px;
+    width: 50vw;
+    /* border: 5px solid green; */
+    background-image: url(/asset/images/erosion.jpg);
+    background-size: cover;
+    border-radius: 35px;
+    background-size: cover;
+    box-shadow: 10px 10px 10px 10px #888888; 
+}
+.plane{
+    height: 550px;
+    width: 50vw;
+    /* border: 5px solid green; */
+    background-image: url(/asset/images/plane\ crash.jpg);
+    background-size: cover;
+    border-radius: 35px;
+    background-size: cover;
+    box-shadow: 10px 10px 10px 10px #888888;
+}
+.highway{
+    height: 550px;
+    width: 50vw;
+    /* border: 5px solid green; */
+    background-image: url(/asset/images/high\ way\ accident.jpeg);
+    background-size: cover;
+    border-radius: 35px;
+    background-size: cover;
+    box-shadow: 10px 10px 10px 10px #888888;   
+}
+.acidrain{
+    height: 550px;
+    width: 50vw;
+    /* border: 5px solid green; */
+    background-image: url(/asset/images/acid\ rain.jpg);
+    background-size: cover;
+    border-radius: 35px;
+    background-size: cover;
+    box-shadow: 10px 10px 10px 10px #888888;
+}
+.collasped{
+    height: 550px;
+    width: 50vw;
+    /* border: 5px solid green; */
+    background-image: url(/asset/images/collasped.jpg);
+    background-size: cover;
+    border-radius: 35px;
+    background-size: cover;
+    box-shadow: 10px 10px 10px 10px #888888;
+}
+.bush{
+    height: 550px;
+    width: 50vw;
+    /* border: 5px solid green; */
+    background-image: url(/asset/images/bush\ burning.jpg);
+    background-size: cover;
+    border-radius: 35px;
+    background-size: cover;
+    box-shadow: 10px 10px 10px 10px #888888; 
+}
+.cat{
+    height: 550px;
+    width: 50vw;
+    /* border: 5px solid green; */
+    background-image: url(/asset/images/cat.jpg);
+    background-size: cover;
+    border-radius: 35px;
+    background-size: cover;
+    box-shadow: 10px 10px 10px 10px #888888;  
+}
+.covid{
+    height: 550px;
+    width: 50vw;
+    /* border: 5px solid green; */
+    background-image: url(/asset/images/covid.jpg);
+    background-size: cover;
+    border-radius: 35px;
+    background-size: cover;
+    box-shadow: 10px 10px 10px 10px #888888; 
+}

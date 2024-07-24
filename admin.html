@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABOUT PAGE</title>
+    <link rel="stylesheet" href="asset/style/admin.css">
+    <script src="asset/js/admin.js" defer></script>
+</head>
+<body>
+    <form action="" method="post">
+        <div class="container">
+
+
+            <div class="body">
+
+                <div class="left">
+                    <header>
+                        <h1>R. P. M .*  reportme@gmail.com</h1>
+                    </header>
+                    <div class="profile">
+
+                    </div>
+
+                </div>
+
+                <div class="right">
+                    <div class="head">
+                        <div class="upper">
+                            <div class="hd-1">
+                                <h1>OVER VIEW *</h1>
+                            </div>
+                            <div class="hd-2">
+                                <button>admin</button>
+                            </div>
+                        </div>
+                        <div class="lower">
+                            <div class="hd-3">
+                                <input type="text" class="input-1">
+                            </div>
+                            <div class="hd-4">
+                                <button>arinze</button>
+                                <button>talented</button>
+                                <button>okonkwo</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="head-2">
+                        <div class="sub-heading">
+                            <div class="sub">NEWLY SIGNED</div>
+                            <div class="sub">ACTIVE USERS</div>
+                            <div class="sub">NON--ACTIVE</div>
+                            <div class="sub">BLOCKED USERS</div>
+                        </div>
+
+                        <div class="sub-heading-content">
+                            <div class="sub-content"></div>
+                            <div class="sub-content"></div>
+                            <div class="sub-content"></div>
+                            <div class="sub-content"></div>
+                        </div>
+
+                        <div class="sub-heading-content">
+                            <div class="sub-content"></div>
+                            <div class="sub-content"></div>
+                            <div class="sub-content"></div>
+                            <div class="sub-content"></div>
+                        </div>
+
+                        <div class="sub-heading-content">
+                            <div class="sub-content"></div>
+                            <div class="sub-content"></div>
+                            <div class="sub-content"></div>
+                            <div class="sub-content"></div>
+                        </div>
+
+                        <div class="sub-heading-content">
+                            <div class="sub-content"></div>
+                            <div class="sub-content"></div>
+                            <div class="sub-content"></div>
+                            <div class="sub-content"></div>
+                        </div>
+
+                        <div class="sub-heading-content">
+                            <div class="sub-content"></div>
+                            <div class="sub-content"></div>
+                            <div class="sub-content"></div>
+                            <div class="sub-content"></div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+
+                <canvas id="myChart" style="width: 100%;max-width:500px"></canvas>
+                
+                <script>
+
+                           var xValues = ["USA", "NIGERIA", "ITALY", "ROME", "GHANA"];
+                           var yValues = [55, 49, 20, 10, 35];
+                           var barColors = ["red","green","brown","blue","pupple"];
+
+                           new Chart("myChart", {
+                           type:"bar",
+                           data: {
+                           labels: xValues,
+                           datasets: [
+                           {
+                             backgroundColors: barColors,
+                              data: yValues
+                               },
+                            ],
+                          },
+                              options:{},
+                              });
+                               document.getElementById("myChart").innerHTML + myChart;
+                </script>
+            </div>
+       </div>
+    </form>
+</body>
+</html>

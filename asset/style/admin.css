@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 2500px;
+    width: 100vw;
+    /* background-color: green; */
+}
+.body{
+    height: 2000px;
+    width: 100vw;
+    display: flex;
+    /* background-color: purple; */
+
+}
+.left{
+    height: 1220px;
+    width: 22vw;
+    background-color: orange;
+    /* border: 1px solid black; */
+}
+.profile{
+    height: 350px;
+    width: 22vw;
+    /* border: 2px solid gold; */
+    background-color: white;
+    background-image: url(/asset/images/talented.jpg);
+    background-size: cover;
+
+}
+.right{
+    height: 1220px;
+    width: 78vw;
+    background-color: grey;
+    border: 1px solid black;
+}
+.head{
+    height: 150px;
+    width: 78vw;
+    background-color: grey;
+}
+.upper{
+    height: 75px;
+    width: 78vw;
+    display: flex;
+    /* border: 5px solid black; */
+}
+.hd-1{
+    height: 60px;
+    width: 20vw;
+    font-style: italic;
+    font-size: 22px;
+    font-weight: bold;
+    /* border: 3px solid black; */
+}
+.hd-2{
+    height: 60px;
+    width: 58vw;
+    /* border: 3px solid green; */
+    display: flex;
+    justify-content: end;
+}
+.lower{
+    height: 75px;
+    width: 78vw;
+    display: flex;
+    /* border: 5px solid black; */
+}
+.hd-3{
+    height: 60px;
+    width: 30vw;
+    display: flex;
+    align-items: center;
+    /* border: 3px solid black; */
+}
+.input-1{
+    height: 40px;
+    width: 90%;
+    border-radius: 20px;
+}
+.hd-4{
+    height: 60px;
+    width: 58vw;
+    display: flex;
+    justify-content: end;
+    border: 3px solid black;
+    border-radius: 20px;
+    gap: 50px;
+}
+.head-2{
+    height: 1070px;
+    width: 78vw;
+    border:  1px solid orange;
+}
+.sub-heading{
+    height: 60px;
+    width: 77vw;
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15px;
+    background-color: orange;
+    border-radius: 30px;
+    color: black;
+}
+.sub{
+    height: 40px;
+    width: 23%;
+    /* border: 3px solid red; */
+    border-radius: 18px;
+    font-size: 28px;
+    font-weight: bold;
+    padding-left: 11PX;
+}
+.sub-heading-content{
+    height: 150px;
+    width: 77vw;
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+.sub-content{
+    height: 150px;
+    width: 23%;
+    border: 5px solid black;
+    border-radius: 15px;
+}

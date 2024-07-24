@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(/asset/images/office\ 2.jpg);
+    background-size: cover;
+    /* border: 5px solid red; */
+}
+.login{
+    color: gold;
+    height: 300px;
+    width: 55vw;
+    font-size: 20px;
+    border-radius: 30px;
+    position: relative;
+    top: 220px;
+    left: 330px;
+    background: transparent;
+    /* border: 5px solid gold; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(25px);
+}
+.input{
+    background-color: whitesmoke;
+    color: black;
+    width: 50vw;
+    border-radius: 10px;
+    height: 30px;
+    font-size: 20px;
+    text-decoration: none;
+    padding-left: 5px;
+    /* border: 2px solid red; */
+}
+header{
+    font-size: 50px;
+    font-weight: bold;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 100px;
+    color: gold;
+}
+.submit{
+    background-color: gold;
+    width:40%;
+    height: 40px;
+    border-radius: 20px;
+    /* border: 3px solid green; */
+    position: relative;
+    right: -400px;
+    font-weight: bold;
+}
+.fb{
+    height: 50px;
+    width: 100%;
+    font-weight: bold;
+    /* border: 5px solid red; */
+}
+a{
+    color: gold;
+    position: relative;
+    right: 105px;
+    text-decoration: none;
+}
+.robot{
+    height: 40px;
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: gold;
+    font-size: 35px;
+    /* border: 5px solid red; */
+}

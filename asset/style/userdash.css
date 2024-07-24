@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(/asset/images/computer.jpg);
+    background-size: cover;
+    /* background-color: red; */
+}
+.header{
+    height: 200px;
+    width: 100vw;
+    display: flex;
+}
+.rpm{
+    height: 120px;
+    width: 20vw;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 50px;
+    color: gold;
+    /* border: 4px solid white; */
+
+}
+a{
+    color: white;
+    font-size: 25px;
+    font-style: italic;
+    text-decoration: none;
+}
+.nav{
+    height: 50px;
+    width: 80vw;
+    display: flex;
+    justify-content: end;
+    word-spacing: 25px;
+}
+.wel{
+    height: 170px;
+    width: 100vw;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: gold;
+    font-size: 28px;
+    font-style: italic;
+    /* border: 4px solid white; */
+}
+.details{
+    height: 300px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: gold;
+    font-style: italic;
+    font-size: 22px;
+    /* border: 2px solid blue; */
+}
+.foot{
+    display: flex;
+    justify-content: end;
+    font-style: italic;
+    font-size: 25px;
+    color: black;
+    /* border: 3px solid red; */
+}
