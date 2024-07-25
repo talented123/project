@@ -3,31 +3,24 @@
 
 const form = document.getElementById("login");
 
-let inputFields = JSON.parse(localStorage.getItem("entries"))
+const validate = localStorage.getItem('myForms');
 
-let arr = [];
+form.addEventListener("submit", (e) => {
+    if(validate) {
+        const inputFields = JSON.parse(validate)
+        if(form.email.value == inputFields.email && form.password.value == inputFields.password) {
 
-console.log(inputFields)
-form.addEventListener("submit",(e) => {
-    const text = {
-        userame: form.userame.value,
-        password: form.password.value,
+            alert("welcome login successful.");
+            const newText = {
+                email: inputFields.email,
+                password: inputFields.password
+            }
 
+            sessionStorage.setItem("logins", JSON.stringify(newText))
+
+            location.href = "landing.html"
+        }  else {
+            alert("you are wrong,try again")
+        }
     }
-    let game = arr.push(text)
-
-    console.log(arr)
-
-    localStorage.setItem("entries",JSON.stringify(arr));
-
-    if(game) {
-        alert("Successful Welcome")
-        form.reset();
-
-        location.href = "http://127.0.0.1:5500/landing.html"
-    } else {
-        alert("Wrong Password")
-    }
-
-    console.log(text)
 })

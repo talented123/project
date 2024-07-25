@@ -6,17 +6,17 @@
 .container{
     height: 100vh;
     width: 100%;
-    background-image: url(/asset/images/chat.jpg);
+    /* background-image: url(/asset/images/office\ 2.jpg); */
     background-size: cover;
-    background-color: rgb(205, 201, 201);
+    background-color: grey;
 }
 .registeration{
-    height: 650px;
+    height: 700px;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    border: 3px solid black;
+    border: 1px solid gold;
     /* background-color: white; */
     font-size: 25px;
     border-radius: 90px;
@@ -25,23 +25,26 @@
     /* left: 330px; */
     padding-left: 350px;
     color: black;
-    backdrop-filter: blur(25px);
+    backdrop-filter: blur(15px);
+    box-shadow: 0 0 90px;
 }
 .details{
-    height: 650px;
+    height: 700px;
     width: 70%;
     /* border: 2px solid red; */
     flex-direction: column;
     display: flex;
     justify-content: center;
     background-color: transparent;
+    font-size: 30px;
+    font-weight: bold;
 
 }
 .input{
-    background-color: transparent;
+    /* background-color: transparent; */
     color: black;
     width: 90%;
-    /* border-radius: 10px; */
+    border-radius: 10px;
     height: 40px;
     font-size: 20px;
     text-decoration: none;
@@ -51,6 +54,7 @@
     border-left: none;
     border-right: none;
     padding-left: 30px;
+    color: white;
 }
 header{
     font-size: 50px;

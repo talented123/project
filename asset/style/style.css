@@ -6,7 +6,7 @@
 .container{
     height: 100vh;
     width: 100vw;
-    background-image: url(/asset/images/computer.jpg);
+    background-image: url(/asset/images/design.jpg);
     background-size: cover;
     /* background-color: red; */
 }
@@ -23,13 +23,20 @@
     font-size: 50px;
     color: gold;
     /* border: 4px solid white; */
-
 }
+
 a{
     color: white;
     font-size: 25px;
     font-style: italic;
     text-decoration: none;
+    /* background-color: black; */
+}
+a:hover{
+    /* background-color: rgb(69, 61, 19); */
+    box-shadow: #0ef 0 0 30px;
+    height: 50px;
+    width: 30%;
 }
 .nav{
     height: 50px;
@@ -37,6 +44,7 @@ a{
     display: flex;
     justify-content: end;
     word-spacing: 25px;
+    align-items: center;
 }
 .wel{
     height: 170px;
