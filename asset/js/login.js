@@ -3,7 +3,7 @@
 
 const form = document.getElementById("login");
 
-const validate = localStorage.getItem ('myForms');
+const validate = localStorage.getItem('myForms');
 
 form.addEventListener("submit", (e) => {
     e.preventDefault()
