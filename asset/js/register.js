@@ -1,7 +1,7 @@
 const form = document.getElementById("register");
 let arr = []
 
-form.addEventListener("submit", (e) =>{
+form.addEventListener("submit", (e) => {
     e.preventDefault()
 
     let formEntry ={
@@ -14,10 +14,6 @@ form.addEventListener("submit", (e) =>{
         email: form.email.value,
         password: form.password.value,
         comfirmpassword: form.comfirmpassword.value,
-        male: form.male.value,
-        female: form.female.value,
-        christain: form.christain.value,
-        islam: form.islam
     }
 
     let game = arr.push(formEntry);
