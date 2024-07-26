@@ -6,7 +6,7 @@
 .container{
     height: 100vh;
     width: 100vw;
-    background-image: url(/asset/images/design.jpg);
+    background-image: url(../images/design.jpg);
     background-size: cover;
     /* background-color: red; */
 }
