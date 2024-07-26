@@ -6,7 +6,7 @@
 .container{
     height: 100vh;
     width: 100vw;
-    background-image: url(/asset/images/office\ 2.jpg);
+    background-image: url(../images/office\ 2.jpg);
     background-size: cover;
     /* border: 5px solid red; */
 }

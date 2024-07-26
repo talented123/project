@@ -6,7 +6,7 @@
 .container{
     height: 100vh;
     width: 100vw;
-    background-image: url(/asset/images/security2.jpg);
+    background-image: url(../images/security2.jpg);
     background-size: cover;
 }
 

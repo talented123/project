@@ -7,7 +7,7 @@
 .container{
     height: 100vh;
     width: 100vw;
-    background-image: url(/asset/images/tele\ 2.jpg);
+    background-image: url(../images/tele\ 2.jpg);
     background-size: cover;
 }
 .header{

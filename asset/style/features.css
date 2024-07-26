@@ -7,7 +7,7 @@
 .container{
     height: 100vh;
     width: 100vw;
-    background-image: url(/asset/images/white-wall.jpg);
+    background-image: url(../images/white-wall.jpg);
     background-size: cover;
 }
 .header{
